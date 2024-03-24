@@ -53,7 +53,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col gap-6">
             <div className="overflow-x-hidden">
-              <p className="text-sm font-medium uppercase">HTML 5</p>
+              <p className="text-sm font-medium uppercase">JAVA</p>
               <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
@@ -66,15 +66,15 @@ const Skills = () => {
               </span>
             </div>
             <div className="overflow-x-hidden">
-              <p className="text-sm font-medium uppercase">CSS3</p>
+              <p className="text-sm font-medium uppercase">HTML/CSS</p>
               <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
-                  className="w-[65%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                  className="w-[85%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                 >
-                  <span className="absolute right-0 -top-7">65%</span>
+                  <span className="absolute right-0 -top-7">85%</span>
                 </motion.span>
               </span>
             </div>
@@ -118,15 +118,15 @@ const Skills = () => {
               </span>
             </div>
             <div className="overflow-x-hidden">
-              <p className="text-sm font-medium uppercase">ReactJS</p>
+              <p className="text-sm font-medium uppercase">Spring boot</p>
               <span className="inline-flex w-full h-2 mt-2 rounded-md bgOpacity">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
-                  className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                  className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                 >
-                  <span className="absolute right-0 -top-7">60%</span>
+                  <span className="absolute right-0 -top-7">75%</span>
                 </motion.span>
               </span>
             </div>

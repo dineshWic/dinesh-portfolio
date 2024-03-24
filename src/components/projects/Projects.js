@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive, projectSix } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive, projectSix, projectSeven } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -64,6 +64,12 @@ const Projects = () => {
           src={projectSix}
           git = "https://github.com/dineshWic/todolist-v2.git"
         />
+        <ProjectsCard
+         title="EcomPulse"
+         des=" EcomPulse is a spring boot microservice project which is an initiative for an e-commerce application. This application allows users to order products and also send notifications about the order."
+         src={projectSeven}
+         git = "https://github.com/dineshWic/todolist-v2.git"
+       />
       </div>
     </section>
   );
